@@ -41,6 +41,7 @@ path.logs: /var/log/elasticsearch
 # Lock the memory on startup:
 #
 #bootstrap.memory_lock: true
+#
 # Make sure that the heap size is set to about half the memory available
 # on the system and that the owner of the process is allowed to use this
 # limit.
@@ -93,6 +94,3 @@ path.logs: /var/log/elasticsearch
 # Refer to the following documentation for instructions.
 #
 # https://www.elastic.co/guide/en/elasticsearch/reference/7.16/configuring-stack-security.html
-xpack.security.enabled: true
-xpack.security.authc.api_key.enabled: true
-#xpack.security.transport.ssl.enabled: true
